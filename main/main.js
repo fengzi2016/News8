@@ -66,7 +66,7 @@ function fengjie(input) {
      var middle=d.join(" ");
      var buttom=e.join(" ");
      var fine=[top,middle,buttom];
-     var result=fine.join("\n");
+     var result=fine.join("\n")+'\n';
      return result;
 }
  module.exports=function main(i){
